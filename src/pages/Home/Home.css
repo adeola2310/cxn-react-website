@@ -1,0 +1,150 @@
+body{
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo{
+    width: 5%;
+}
+
+.home{
+    background-color: #E5E9EF;
+    width: 100vw;
+    min-height: 30vh;
+}
+.connect{
+    background-color: #FFD574;
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.nav{
+    display: flex;
+    padding: 1rem 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.components{
+    display: grid;
+    margin: -8rem auto;
+    z-index: 10;
+    position: relative;
+    padding: 1rem 5rem;
+    grid-template-columns: repeat(3, 400px);
+    grid-column-gap: 15px;
+    grid-row-gap: 20px;
+}
+.referral{
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    border: 1px solid #223f47;
+    border-radius: 3px;
+    margin: 150px;
+    height: fit-content;
+}
+.copy{
+    background-color: #223f47;
+    color: #ffffff;
+    border: none;
+    border-radius: 100px;
+    font-weight: bolder;
+    padding: 15px 45px;
+}
+.ref-details{
+    padding: 25px 30px;
+}
+.referral-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.referral-input{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1rem;
+    border-radius: 100px;
+    outline: none;
+    border: 1px solid #bdbdbd;
+}
+.number{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-column-gap: 10px;
+    margin-top: 10px;
+    padding: 1rem 5rem;
+
+}
+.tab-area{
+    border: 1px solid #223f47;
+    border-radius: 3px;
+    height: 50%;
+    margin: 150px;
+}
+.css-1dxxh68{
+    justify-content: space-between !important;
+}
+
+@media screen and (max-width: 600px){
+    .logo{
+        width: 20%;
+    }
+    .nav{
+        display: flex;
+        padding: 15px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .referral{
+        border: 1px solid #bdbdbd;
+        border-radius: 3px;
+        height: fit-content;
+        display: grid;
+        padding: 15px;
+        margin: 40px 20px;
+        grid-template-columns: auto;
+    }
+    .ref-details{
+        padding: 25px 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .referral-details{
+        display: flex;
+        flex-direction: column;
+    }
+    .referral-input{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .components{
+        display: grid;
+        margin: -2rem auto;
+        padding: 15px;
+        grid-template-columns: auto;
+    }
+
+    .number{
+        display: grid;
+        grid-template-columns: auto;
+        grid-row-gap: 10px;
+        padding: 15px;
+
+    }
+    .tab-area{
+        margin: 50px 10px;
+
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px){
+    .components{
+        display: grid;
+        margin: -2rem auto;
+        padding: 15px;
+        grid-template-columns: repeat(2, 50%);
+    }
+}

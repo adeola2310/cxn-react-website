@@ -1,0 +1,36 @@
+.card{
+    /*background: linear-gradient(0deg, rgb(12, 101, 235) 0%, rgb(28, 158, 247) 100%);*/
+    border-radius: 5px;
+    background-color: #223f47;
+    color: white;
+    min-height: 150px;
+    box-shadow: 10px 10px 52px -23px rgba(0,0,0,0.75);
+
+}
+.head{
+    display: flex;
+    align-items: center;
+}
+
+.card-details{
+    padding: .5rem 1rem;
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.result{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 600px){
+   .card{
+       font-size: 15px;
+   }
+}
